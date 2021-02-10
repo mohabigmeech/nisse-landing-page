@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
 
 </head>
 
@@ -302,8 +302,19 @@
 
         <section class="slider fixed-slider center-slider slide-controls">
             <div class="swiper-container parallax-slider">
-                <div class="video">
-test
+                <div class="nisse-intro">
+                    <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    poster="/img/video/bg-video.jpg"
+                    class="nisse-intro__video"
+                  >
+                    <source src="/img/video/bg-video.mp4" type="video/mp4" />
+                    <source src="/img/video/bg-video.ogv" type="video/ogg" />
+                    <source src="/img/video/bg-video.webm" type="video/webm" />
+                  </video>
                 </div>
 
                 <div class="social">

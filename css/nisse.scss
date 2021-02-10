@@ -1,0 +1,17 @@
+.nisse {
+	&-intro {
+		position: relative;
+		height: calc(100vh - 70px);
+		&__video {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			object-fit: cover;
+			pointer-events: none;
+			filter: grayscale(1);
+		}
+	}
+}
