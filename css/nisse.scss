@@ -13,5 +13,88 @@
 			pointer-events: none;
 			filter: grayscale(1);
 		}
+
+		&__text {
+			position: absolute;
+			z-index: 5;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+
+			h2 {
+				text-transform: uppercase;
+    			font-size: 48px;
+			}
+
+			p {
+				color: white;
+			}
+
+			button {
+				margin-top: 20px;
+				border: 0px;
+				padding: 15px 25px;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+		}
 	}
+
+	&-pictos {
+		padding: 50px 15px 20px;
+		.row {
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			padding-bottom: 10px;
+		}
+		&__item {
+			img {
+				display: block;
+				margin-bottom: 10px;
+			}
+			text-align: center;
+		}
+	}
+}
+
+.hamenu{
+	transition: all 0.25s cubic-bezier(0.2, 0, 0.2, 0.2) !important;
+}
+
+// .about.blc {
+// 	background-color: #eeeee7 !important;
+// 	h5 {
+// 		color: black;
+// 	}
+// 	.active {
+// 		h5 {
+// 			color: white;
+// 		}
+// 		.icon {
+// 			color: #eeeee7 !important;
+// 		}
+// 	}
+// 	.icon {
+// 		color: black !important;
+// 	}
+// 	.sub-title {
+// 		&:after {
+// 			background: black !important;
+// 		}
+// 		.word {
+// 			color: black !important;
+// 		}
+// 	}
+// 	.extra-title {
+// 		color: black !important;
+// 	}
+// }
+
+.min-area .img:after {
+	background: #eeeee7 !important;
+}
+
+.agency .imgsec .imgone:after {
+	background: rgba(0,0,0,0) !important;
 }
