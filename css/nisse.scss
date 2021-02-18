@@ -22,9 +22,15 @@
 			transform: translate(-50%, -50%);
 			color: white;
 
+			img {
+				width: 550px;
+				margin-bottom: 20px;
+			}
+
 			h2 {
 				text-transform: uppercase;
-    			font-size: 48px;
+				font-size: 24px;
+				margin-bottom: 50px;
 			}
 
 			p {
@@ -33,10 +39,16 @@
 
 			button {
 				margin-top: 20px;
-				border: 0px;
-				padding: 15px 25px;
+				border-color: white;
+				color: white;
 				text-transform: uppercase;
-				font-weight: bold;
+				&:hover span {
+					color: black;
+				}
+				&:after {
+					background: white;
+					z-index: -1;
+				}
 			}
 		}
 	}
@@ -55,6 +67,10 @@
 			}
 			text-align: center;
 		}
+	}
+
+	&-sign {
+		width: 150px;
 	}
 }
 
@@ -97,4 +113,8 @@
 
 .agency .imgsec .imgone:after {
 	background: rgba(0,0,0,0) !important;
+}
+
+.swiper-container .imgio {
+	width: 100%;
 }
