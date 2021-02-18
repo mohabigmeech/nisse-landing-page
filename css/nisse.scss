@@ -152,4 +152,10 @@ $tablet-sm-screen: 767px;
 	.content h6 span {
 		color: #F0DEB4 !important;
 	}
-} 
+}
+
+.team {
+	img {
+		filter: grayscale(1);
+	}
+}
