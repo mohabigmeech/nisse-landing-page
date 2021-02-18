@@ -1,3 +1,5 @@
+$tablet-sm-screen: 767px;
+
 .nisse {
 	&-intro {
 		position: relative;
@@ -24,6 +26,7 @@
 
 			img {
 				width: 550px;
+				max-width: 80vw;
 				margin-bottom: 20px;
 			}
 
@@ -31,6 +34,9 @@
 				text-transform: uppercase;
 				font-size: 24px;
 				margin-bottom: 50px;
+				@media screen and (max-width: $tablet-sm-screen){
+					font-size: 18px;
+				}
 			}
 
 			p {
