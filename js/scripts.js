@@ -42,7 +42,7 @@ $(function () {
         navDark = $(".topnav.dark"),
         logoChan = $(".topnav.dark .logo img");
 
-    $('.topnav .menu-icon').on('click', function () {
+    $('.topnav .menu-icon, .js-openMenu').on('click', function () {
         open = !open;
 
         $('.hamenu').toggleClass("open");
@@ -249,19 +249,19 @@ $(function () {
 
         breakpoints: {
             320: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 0
             },
             480: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 0
             },
             640: {
-                slidesPerView: 2,
+                slidesPerView: 4,
                 spaceBetween: 0
             },
             991: {
-                slidesPerView: 3,
+                slidesPerView: 5,
                 spaceBetween: 0
             }
         },
