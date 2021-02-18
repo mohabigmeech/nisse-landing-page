@@ -78,10 +78,17 @@ $tablet-sm-screen: 767px;
 	&-sign {
 		width: 150px;
 	}
+
+	&-cta {
+		text-align: center;
+	}
 }
 
 .hamenu{
 	transition: all 0.25s cubic-bezier(0.2, 0, 0.2, 0.2) !important;
+	&.open {
+		padding: 100px 0 0;
+	}
 }
 
 // .about.blc {
@@ -123,4 +130,8 @@ $tablet-sm-screen: 767px;
 
 .swiper-container .imgio {
 	width: 100%;
+}
+
+.call-action .content h6 span {
+	color: #F0DEB4 !important;
 }
