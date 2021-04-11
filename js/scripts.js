@@ -540,15 +540,15 @@ function hasScrolled() {
     if (Math.abs(lastScrollTop - st) <= delta)
         return;
 
-    if (st > lastScrollTop && st > navbarHeight) {
-        $('#navi').css('top', '-100px');
+    // if (st > lastScrollTop && st > navbarHeight) {
+    //     $('#navi').css('top', '-100px');
 
-    } else {
+    // } else {
 
-        if (st + $(window).height() < $(document).height()) {
-            $('#navi').css('top', '0');
-        }
-    }
+    //     if (st + $(window).height() < $(document).height()) {
+    //         $('#navi').css('top', '0');
+    //     }
+    // }
 
     lastScrollTop = st;
 }
