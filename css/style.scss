@@ -305,6 +305,7 @@ span, a, a:hover {
 	overflow:hidden;
 	position:fixed;
 	z-index: 9999999;
+	text-align: center;
 
 	&:after, &:before{
 		content: '';
@@ -669,7 +670,7 @@ span, a, a:hover {
 	width: 100%;
 	z-index: 999999;
 	padding: 30px 0;
-	color: #fff;
+	color: black;
 	transition: all .7s;
 
 	.container,
@@ -783,7 +784,9 @@ span, a, a:hover {
 }
 
 .nav-scroll{
-	background: #111;
+	// background: #111;
+	background: white;
+	color: black;
 }
 
 .hamenu{
@@ -1605,8 +1608,10 @@ span, a, a:hover {
 	}
 
 	&.blc{
-		background-color: #080808;
-		color: #fff;
+		// background-color: #080808;
+		// color: #fff;
+		background-color: #eeeee7;
+		color: black;
 
 		&:before{
 			background-image: url(../img/giphynoise.png);
@@ -1620,10 +1625,12 @@ span, a, a:hover {
 		}
 	
 		.sub-title{
-			color: #ccc;
+			// color: #ccc;
+			color: black;
 	
 			&:after{
-				background: #eee;
+				// background: #eee;
+				background: black;
 			}
 		}
 	
@@ -1639,13 +1646,16 @@ span, a, a:hover {
 
 			.icon{
 				font-size: 60px;
-				color: #eee;
+				// color: #eee;
+				color: black;
 			}
 		}
 
 		.items.active{
-			background: #0e0e0e;
-			border-color: rgba(255,255,255,.5);
+			// background: #0e0e0e;
+			// border-color: rgba(255,255,255,.5);
+			background: rgba(0,0,0,0.02);
+			border-color: black;
 		}
 	
 		.items .more-stroke span,
